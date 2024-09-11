@@ -122,6 +122,14 @@ class DoublyLinkedList {
     isEmpty(){
         return this.size === 0
     }
+
+    clear(){
+        this.head = null
+        this.tail = null
+        this.size = 0
+
+        console.log("Lista limpa!")
+    }
 }
 
 let lista = new DoublyLinkedList()
@@ -147,3 +155,4 @@ lista.print()
 console.log("Elemento na posição 2: ", lista.getData(2))
 console.log("A lista está vazia? ", lista.isEmpty())
 console.log("Tamanho da lista: ", lista.getSize())
+
