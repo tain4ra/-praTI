@@ -39,19 +39,19 @@
 //     Use um loop for...of para iterar o array biblioteca.
 //     Imprima o titulo e o ano dos livros que atendam a condiçao.
 // */
-// //construir um array de obj
-// const library = [
-//     {title: "Dark Matter", year: 2016},
-//     {title: "1984", year: 1984},
-//     {title: "Fahrenheit 451", year: 1953},
-//     {title: "The Immortalists", year: 2018}
-// ]
+//construir um array de obj
+const library = [
+    {title: "Dark Matter", year: 2016},
+    {title: "1984", year: 1984},
+    {title: "Fahrenheit 451", year: 1953},
+    {title: "The Immortalists", year: 2018}
+]
 
-// for(let book of library){
-//     if(book.year > 2000){
-//         console.log(`O livro ${book.title} foi publicado em ${book.year}.`)
-//     }
-// }
+for(let book of library){
+    if(book.year > 2000){
+        console.log(`O livro ${book.title} foi publicado em ${book.year}.`)
+    }
+}
 
 /*
     Exercicio 3: Contar a quantidade de filmes por genero.
