@@ -21,15 +21,57 @@
             a{ /*a é uma ancora, nesse caso ao a href*/
                 text-decoration: none;
                 font-weight: bold;
-                color: white;
-                background-color: black;
+                color: plum;
+                /* background-color: gray; */
                 /* transition: blue 0.3s ease, red 0.3s ease; */
+                border: 2px solid;
             }
 
             a:hover{
                 color:yellow;
                 text-decoration: none;
                 background-color: gray;
+            }
+
+            a:active{
+                color: blue;
+                text-decoration: none;
+                background-color: cdcdcd;
+            }
+
+            p {
+                background-color: black;
+                color: wheat;
+                text-align: justify;
+                letter-spacing: normal;
+                /* word-spacing: 5px; */
+                /* text-transform: uppercase; */
+            }
+
+            ul {
+                list-style-type: none;
+                border: 1px solid #000;
+                margin-bottom: 50px;
+            }
+
+            li {
+                margin-bottom: 10px;
+            }
+
+            ol {
+                /* list-style-type: upper-roman; */
+                list-style-type: circle;
+                border: 1px solid black;
+                padding-top: 10px;
+            }
+
+            table {
+                border: 2px solid;
+                width: 100%;
+            }
+
+            td, th {
+                border: 1px solid orange;
             }
         </style>
 
@@ -93,7 +135,7 @@
         <hr>
 
         <section>
-            <table border="1" widht="50%">
+            <table>
                 <tr>
                     <th>Produto</th>
                     <th>Descrição</th>

@@ -1,0 +1,69 @@
+/* * {
+    background-color: antiquewhite;
+}  aqui para editar tudo de uma vez*/
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin: 10;
+    padding: 15;
+    background-color: antiquewhite;
+    color: gray;
+}
+
+dl {
+    margin: 15px;
+    padding: 10px;
+    background-color: bisque;
+    border-left: 5px solid darkgoldenrod;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 1.2en;
+    margin-top: 5px;
+    color: darkgoldenrod;
+}
+
+dd {
+    font-style: italic;
+}
+
+.lista-nao-ordenada {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid darkgoldenrod;
+    background-color: rgb(255, 247, 232);
+}
+
+.lista-nao-ordenada li {
+    margin-bottom: 10px;
+}
+
+ol > ul {
+    color: burlywood;
+    background-color: brown;
+}
+
+.tarefa {
+    color: darkblue;    
+}
+
+ul.tarefa > li {
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.tarefa > li:hover{
+    color:lightblue;
+    text-decoration: none;
+    background-color: gray;
+}
+
+.ultimo-item {
+    color: darkolivegreen;
+    font-style: italic;
+}

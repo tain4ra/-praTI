@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos</title>
+
+    <style>
+        .container {
+            position: relative;
+            background-color: blanchedalmond;
+            width: 800px;
+            margin: 20px auto;
+            border: 3px solid;
+            top: 10px;
+            left: 30px;
+        }
+
+        .absolute {
+            position: absolute;
+            /* em absolute vai ser relativo a div pai desde que ela esteja como relative, nao ao resto da tela */
+            border: 3px solid brown;
+            top: 300px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exemplos de posicionamento</h1>
+        
+        <p class="relative">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquam 
+            labore ut laboriosam magni deserunt incidunt reiciendis asperiores repellat. 
+            Soluta, placeat repellat quam deleniti sunt ipsam labore perferendis maxime, 
+            fuga nemo corrupti facere minus? Temporibus vero ipsum laboriosam sapiente 
+            corrupti velit consectetur, animi sint similique quae, labore sunt, esse 
+            consequuntur.</p>
+
+        <p class="absolute">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laboriosam 
+            cumque modi accusamus, tenetur aut!</p>
+
+        <p class="fixed">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Et, ipsum fugiat.</span> 
+            Quos laboriosam voluptatem praesentium at laborum optio deserunt adipisci 
+            soluta accusamus obcaecati, rem aliquam, excepturi harum doloribus dolores 
+            fugiat?</p>
+    </div>
+</body>
+</html>

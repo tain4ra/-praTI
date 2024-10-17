@@ -1,0 +1,9 @@
+.remove-btn, .edit-btn {
+    margin-left: 10px;
+    cursor: pointer;
+    color: brown;
+}
+
+.editing {
+    border: 1px solid blue;
+}

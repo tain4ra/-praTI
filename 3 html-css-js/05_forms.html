@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="05_forms.css">
+</head>
+<body>
+    <form>
+        <h1>Cadastro de evento</h1>
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome">
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@gmail.com">
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        <br>
+
+        <label for="confirme-senha">Confirme sua senha:</label>
+        <input type="password" id="confirme-senha" name="confirme-senha">
+        <br>
+
+        <label for="genero">Confirme sua senha:</label>
+        <select name="" id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outros">Outros</option>
+        </select>
+        <br>
+
+        <label for="nascimento">Data de nascimento:</label>
+        <input type="date" id="data-nascimento" name="data-nascimento">
+        <br>
+
+        <label for="estado">Estado:</label> <!-- Rótulo para o campo de seleção de estado -->
+        <select name="estado" id="estado"> <!-- Menu suspenso para escolher o estado -->
+            <option value=""></option> <!-- Opção em branco -->
+            <option value="Ceará">Ceará</option> <!-- Opção Ceará -->
+            <option value="Amapá">Amapá</option> <!-- Opção Amapá -->
+            <option value="Mato Grosso">Mato Grosso</option> <!-- Opção Mato Grosso -->
+        </select>
+        <br>
+
+        <fieldset>
+            <legend>Preferências de comunicação:</legend>
+            <input type="checkbox" id="email-novidades" name="email-novidades">
+            <label class="inline-label" for="email-novidades"> Receber atualizações por email</label><br>
+
+            <input type="checkbox" id="sms-novidades" name="sms-novidades">
+            <label class="inline-label" for="sms-novidades"> Receber atualizações por SMS</label><br>
+        </fieldset>
+        <br>
+
+        <label for="foto-perfil">Foto de perfil:</label>
+        <input type="file" name="foto-perfil" id="foto-perfil">
+
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+</body>
+</html>
